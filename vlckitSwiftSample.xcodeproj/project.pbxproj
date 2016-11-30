@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D2E6371EE57044BA094AD26 /* Pods_vlckitSwiftSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41EA20EA33B464358E9DC31 /* Pods_vlckitSwiftSampleUITests.framework */; };
 		4D00B0E71BFD569700D8BB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B0E61BFD569700D8BB3E /* AppDelegate.swift */; };
 		4D00B0E91BFD569700D8BB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B0E81BFD569700D8BB3E /* ViewController.swift */; };
 		4D00B0EC1BFD569700D8BB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D00B0EA1BFD569700D8BB3E /* Main.storyboard */; };
@@ -15,6 +16,8 @@
 		4D00B0FC1BFD569700D8BB3E /* vlckitSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B0FB1BFD569700D8BB3E /* vlckitSwiftSampleTests.swift */; };
 		4D00B1071BFD569700D8BB3E /* vlckitSwiftSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B1061BFD569700D8BB3E /* vlckitSwiftSampleUITests.swift */; };
 		4D00B11A1BFD58EE00D8BB3E /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B1181BFD58EE00D8BB3E /* empty.cpp */; };
+		71AC34011C19F56AF2B6CF12 /* Pods_vlckitSwiftSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42AE3CF63F71943009CC27E /* Pods_vlckitSwiftSampleTests.framework */; };
+		C46056053145EF838859CC56 /* Pods_vlckitSwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D75B3E6F8B7961594D652 /* Pods_vlckitSwiftSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C5730BFD46A0FE30C7E193A /* Pods-vlckitSwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSample/Pods-vlckitSwiftSample.release.xcconfig"; sourceTree = "<group>"; };
+		2A93027C0135251BAA05100F /* Pods-vlckitSwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSample/Pods-vlckitSwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
+		372D75B3E6F8B7961594D652 /* Pods_vlckitSwiftSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlckitSwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		490C3A601C88DE96D0AAAA4D /* Pods-vlckitSwiftSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleTests/Pods-vlckitSwiftSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D00B0E31BFD569700D8BB3E /* vlckitSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vlckitSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D00B0E61BFD569700D8BB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4D00B0E81BFD569700D8BB3E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,6 +58,11 @@
 		4D00B1141BFD57B300D8BB3E /* vlckitSwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vlckitSwiftSample-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		4D00B1181BFD58EE00D8BB3E /* empty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
 		4D00B1191BFD58EE00D8BB3E /* empty.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = empty.hpp; sourceTree = "<group>"; };
+		97FA3E61884B8BB441C95167 /* Pods-vlckitSwiftSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleTests/Pods-vlckitSwiftSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		9A054539DB9D955D431B1FAE /* Pods-vlckitSwiftSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleUITests/Pods-vlckitSwiftSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C41EA20EA33B464358E9DC31 /* Pods_vlckitSwiftSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlckitSwiftSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF354A06C4298946FD13F8C2 /* Pods-vlckitSwiftSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleUITests/Pods-vlckitSwiftSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F42AE3CF63F71943009CC27E /* Pods_vlckitSwiftSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlckitSwiftSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C46056053145EF838859CC56 /* Pods_vlckitSwiftSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71AC34011C19F56AF2B6CF12 /* Pods_vlckitSwiftSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +86,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D2E6371EE57044BA094AD26 /* Pods_vlckitSwiftSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +100,8 @@
 				4D00B0FA1BFD569700D8BB3E /* vlckitSwiftSampleTests */,
 				4D00B1051BFD569700D8BB3E /* vlckitSwiftSampleUITests */,
 				4D00B0E41BFD569700D8BB3E /* Products */,
+				7ADC8323CFABAFFF3ABD9B2E /* Pods */,
+				F3A535F711E18C900A22ECE4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -132,6 +149,29 @@
 			path = vlckitSwiftSampleUITests;
 			sourceTree = "<group>";
 		};
+		7ADC8323CFABAFFF3ABD9B2E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2A93027C0135251BAA05100F /* Pods-vlckitSwiftSample.debug.xcconfig */,
+				0C5730BFD46A0FE30C7E193A /* Pods-vlckitSwiftSample.release.xcconfig */,
+				97FA3E61884B8BB441C95167 /* Pods-vlckitSwiftSampleTests.debug.xcconfig */,
+				490C3A601C88DE96D0AAAA4D /* Pods-vlckitSwiftSampleTests.release.xcconfig */,
+				DF354A06C4298946FD13F8C2 /* Pods-vlckitSwiftSampleUITests.debug.xcconfig */,
+				9A054539DB9D955D431B1FAE /* Pods-vlckitSwiftSampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F3A535F711E18C900A22ECE4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				372D75B3E6F8B7961594D652 /* Pods_vlckitSwiftSample.framework */,
+				F42AE3CF63F71943009CC27E /* Pods_vlckitSwiftSampleTests.framework */,
+				C41EA20EA33B464358E9DC31 /* Pods_vlckitSwiftSampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,9 +179,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D00B10B1BFD569700D8BB3E /* Build configuration list for PBXNativeTarget "vlckitSwiftSample" */;
 			buildPhases = (
+				B9B301743F1A7C614E8F2346 /* [CP] Check Pods Manifest.lock */,
 				4D00B0DF1BFD569700D8BB3E /* Sources */,
 				4D00B0E01BFD569700D8BB3E /* Frameworks */,
 				4D00B0E11BFD569700D8BB3E /* Resources */,
+				0942EC2BF8475F4D89C9B178 /* [CP] Embed Pods Frameworks */,
+				E5A7E042A8E4A89171497371 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -156,9 +199,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D00B10E1BFD569700D8BB3E /* Build configuration list for PBXNativeTarget "vlckitSwiftSampleTests" */;
 			buildPhases = (
+				C9CB8431A1B450B8AF618146 /* [CP] Check Pods Manifest.lock */,
 				4D00B0F31BFD569700D8BB3E /* Sources */,
 				4D00B0F41BFD569700D8BB3E /* Frameworks */,
 				4D00B0F51BFD569700D8BB3E /* Resources */,
+				CA0074A3CAEA2DF496A4AD81 /* [CP] Embed Pods Frameworks */,
+				7AFD146C791F1572FFEF3A80 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -174,9 +220,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4D00B1111BFD569700D8BB3E /* Build configuration list for PBXNativeTarget "vlckitSwiftSampleUITests" */;
 			buildPhases = (
+				A093F0CA0E12B73797AED8E5 /* [CP] Check Pods Manifest.lock */,
 				4D00B0FE1BFD569700D8BB3E /* Sources */,
 				4D00B0FF1BFD569700D8BB3E /* Frameworks */,
 				4D00B1001BFD569700D8BB3E /* Resources */,
+				14B29DC07FFF9A011246D27B /* [CP] Embed Pods Frameworks */,
+				CA31E50BE74E742AEF94A244 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,6 +309,144 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0942EC2BF8475F4D89C9B178 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vlckitSwiftSample/Pods-vlckitSwiftSample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		14B29DC07FFF9A011246D27B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vlckitSwiftSampleUITests/Pods-vlckitSwiftSampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7AFD146C791F1572FFEF3A80 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vlckitSwiftSampleTests/Pods-vlckitSwiftSampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A093F0CA0E12B73797AED8E5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B301743F1A7C614E8F2346 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C9CB8431A1B450B8AF618146 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CA0074A3CAEA2DF496A4AD81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vlckitSwiftSampleTests/Pods-vlckitSwiftSampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA31E50BE74E742AEF94A244 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vlckitSwiftSampleUITests/Pods-vlckitSwiftSampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5A7E042A8E4A89171497371 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vlckitSwiftSample/Pods-vlckitSwiftSample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4D00B0DF1BFD569700D8BB3E /* Sources */ = {
@@ -408,6 +595,7 @@
 		};
 		4D00B10C1BFD569700D8BB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2A93027C0135251BAA05100F /* Pods-vlckitSwiftSample.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -423,6 +611,7 @@
 		};
 		4D00B10D1BFD569700D8BB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C5730BFD46A0FE30C7E193A /* Pods-vlckitSwiftSample.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
@@ -437,6 +626,7 @@
 		};
 		4D00B10F1BFD569700D8BB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97FA3E61884B8BB441C95167 /* Pods-vlckitSwiftSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = vlckitSwiftSampleTests/Info.plist;
@@ -450,6 +640,7 @@
 		};
 		4D00B1101BFD569700D8BB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 490C3A601C88DE96D0AAAA4D /* Pods-vlckitSwiftSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = vlckitSwiftSampleTests/Info.plist;
@@ -463,6 +654,7 @@
 		};
 		4D00B1121BFD569700D8BB3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF354A06C4298946FD13F8C2 /* Pods-vlckitSwiftSampleUITests.debug.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = vlckitSwiftSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
@@ -476,6 +668,7 @@
 		};
 		4D00B1131BFD569700D8BB3E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A054539DB9D955D431B1FAE /* Pods-vlckitSwiftSampleUITests.release.xcconfig */;
 			buildSettings = {
 				INFOPLIST_FILE = vlckitSwiftSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
