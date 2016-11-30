@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, VLCMediaPlayerDelegate {
 
     var movieView: UIView!
     var mediaPlayer = VLCMediaPlayer()
@@ -44,11 +44,11 @@ class ViewController: UIViewController {
         let url = URL(string: "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov")
 
 
-        let media = VLCMedia(URL: url)
-        mediaPlayer.setMedia(media)
+        let media = VLCMedia(url: url)
+        mediaPlayer.media = media
 
 
-        mediaPlayer.setDelegate(self)
+        mediaPlayer.delegate = self
         mediaPlayer.drawable = self.movieView
 
     }
@@ -75,11 +75,11 @@ class ViewController: UIViewController {
 
     func movieViewTapped(_ sender: UITapGestureRecognizer) {
 
-        if mediaPlayer.isPlaying() {
+        if mediaPlayer.isPlaying {
             mediaPlayer.pause()
 
             let remaining = mediaPlayer.remainingTime
-            let time = mediaPlayer.time()
+            let time = mediaPlayer.time
 
             print("Paused at \(time) with \(remaining) time remaining")
         }
