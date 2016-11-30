@@ -606,6 +606,7 @@
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = N95Z7TWCA8;
+				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = vlckitSwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark.vlckitSwiftSample;
