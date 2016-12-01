@@ -519,7 +519,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -566,7 +566,7 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
@@ -643,6 +643,7 @@
 			baseConfigurationReference = 97FA3E61884B8BB441C95167 /* Pods-vlckitSwiftSampleTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				INFOPLIST_FILE = vlckitSwiftSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark.vlckitSwiftSampleTests;
@@ -657,6 +658,7 @@
 			baseConfigurationReference = 490C3A601C88DE96D0AAAA4D /* Pods-vlckitSwiftSampleTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_CXX_LIBRARY = "compiler-default";
 				INFOPLIST_FILE = vlckitSwiftSampleTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark.vlckitSwiftSampleTests;
@@ -670,6 +672,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DF354A06C4298946FD13F8C2 /* Pods-vlckitSwiftSampleUITests.debug.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				INFOPLIST_FILE = vlckitSwiftSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark.vlckitSwiftSampleUITests;
@@ -684,6 +687,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 9A054539DB9D955D431B1FAE /* Pods-vlckitSwiftSampleUITests.release.xcconfig */;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "compiler-default";
 				INFOPLIST_FILE = vlckitSwiftSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark.vlckitSwiftSampleUITests;
