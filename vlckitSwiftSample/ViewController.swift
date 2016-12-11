@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, VLCMediaPlayerDelegate {
 
     var movieView: UIView!
     var mediaPlayer = VLCMediaPlayer()
@@ -17,22 +17,22 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 
         //Add rotation observer
-        NSNotificationCenter.defaultCenter().addObserver(self, selector: "rotated", name: UIDeviceOrientationDidChangeNotification, object: nil)
+        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
 
         //Setup movieView
         self.movieView = UIView()
-        self.movieView.backgroundColor = UIColor.grayColor()
-        self.movieView.frame = UIScreen.screens()[0].bounds
+        self.movieView.backgroundColor = UIColor.gray
+        self.movieView.frame = UIScreen.screens[0].bounds
 
         //Add tap gesture to movieView for play/pause
-        let gesture = UITapGestureRecognizer(target: self, action: "movieViewTapped:")
+        let gesture = UITapGestureRecognizer(target: self, action: #selector(ViewController.movieViewTapped(_:)))
         self.movieView.addGestureRecognizer(gesture)
 
         //Add movieView to view controller
         self.view.addSubview(self.movieView)
     }
 
-    override func viewDidAppear(animated: Bool) {
+    override func viewDidAppear(_ animated: Bool) {
 
         //Playing multicast UDP (you can multicast a video from VLC)
         //let url = NSURL(string: "udp://@225.0.0.1:51018")
@@ -41,14 +41,14 @@ class ViewController: UIViewController {
         //let url = NSURL(string: "http://streams.videolan.org/streams/mp4/Mr_MrsSmith-h264_aac.mp4")
 
         //Playing RTSP from internet
-        let url = NSURL(string: "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov")
+        let url = URL(string: "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov")
 
 
-        let media = VLCMedia(URL: url)
-        mediaPlayer.setMedia(media)
+        let media = VLCMedia(url: url)
+        mediaPlayer.media = media
 
 
-        mediaPlayer.setDelegate(self)
+        mediaPlayer.delegate = self
         mediaPlayer.drawable = self.movieView
 
     }
@@ -59,7 +59,7 @@ class ViewController: UIViewController {
 
     func rotated() {
 
-        let orientation = UIDevice.currentDevice().orientation
+        let orientation = UIDevice.current.orientation
 
         if (UIDeviceOrientationIsLandscape(orientation)) {
             print("Switched to landscape")
@@ -73,13 +73,13 @@ class ViewController: UIViewController {
 
     }
 
-    func movieViewTapped(sender: UITapGestureRecognizer) {
+    func movieViewTapped(_ sender: UITapGestureRecognizer) {
 
-        if mediaPlayer.isPlaying() {
+        if mediaPlayer.isPlaying {
             mediaPlayer.pause()
 
             let remaining = mediaPlayer.remainingTime
-            let time = mediaPlayer.time()
+            let time = mediaPlayer.time
 
             print("Paused at \(time) with \(remaining) time remaining")
         }
