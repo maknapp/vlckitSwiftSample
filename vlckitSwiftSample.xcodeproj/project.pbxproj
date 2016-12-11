@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3D2E6371EE57044BA094AD26 /* Pods_vlckitSwiftSampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C41EA20EA33B464358E9DC31 /* Pods_vlckitSwiftSampleUITests.framework */; };
 		4D00B0E71BFD569700D8BB3E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B0E61BFD569700D8BB3E /* AppDelegate.swift */; };
 		4D00B0E91BFD569700D8BB3E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B0E81BFD569700D8BB3E /* ViewController.swift */; };
 		4D00B0EC1BFD569700D8BB3E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D00B0EA1BFD569700D8BB3E /* Main.storyboard */; };
@@ -16,9 +15,8 @@
 		4D00B0FC1BFD569700D8BB3E /* vlckitSwiftSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B0FB1BFD569700D8BB3E /* vlckitSwiftSampleTests.swift */; };
 		4D00B1071BFD569700D8BB3E /* vlckitSwiftSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B1061BFD569700D8BB3E /* vlckitSwiftSampleUITests.swift */; };
 		4D00B11A1BFD58EE00D8BB3E /* empty.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4D00B1181BFD58EE00D8BB3E /* empty.cpp */; };
-		71AC34011C19F56AF2B6CF12 /* Pods_vlckitSwiftSampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42AE3CF63F71943009CC27E /* Pods_vlckitSwiftSampleTests.framework */; };
+		4D1240911DF105A900AAB571 /* MobileVLCKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D1240901DF105A900AAB571 /* MobileVLCKit.framework */; };
 		85A517DC1DEF21EE00D04923 /* libstdc++.6.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 85A517DB1DEF21EE00D04923 /* libstdc++.6.tbd */; };
-		C46056053145EF838859CC56 /* Pods_vlckitSwiftSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 372D75B3E6F8B7961594D652 /* Pods_vlckitSwiftSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +39,6 @@
 /* Begin PBXFileReference section */
 		0C5730BFD46A0FE30C7E193A /* Pods-vlckitSwiftSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSample/Pods-vlckitSwiftSample.release.xcconfig"; sourceTree = "<group>"; };
 		2A93027C0135251BAA05100F /* Pods-vlckitSwiftSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSample/Pods-vlckitSwiftSample.debug.xcconfig"; sourceTree = "<group>"; };
-		372D75B3E6F8B7961594D652 /* Pods_vlckitSwiftSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlckitSwiftSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		490C3A601C88DE96D0AAAA4D /* Pods-vlckitSwiftSampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleTests/Pods-vlckitSwiftSampleTests.release.xcconfig"; sourceTree = "<group>"; };
 		4D00B0E31BFD569700D8BB3E /* vlckitSwiftSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vlckitSwiftSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4D00B0E61BFD569700D8BB3E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,12 +56,11 @@
 		4D00B1141BFD57B300D8BB3E /* vlckitSwiftSample-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "vlckitSwiftSample-Bridging-Header.h"; sourceTree = SOURCE_ROOT; };
 		4D00B1181BFD58EE00D8BB3E /* empty.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = empty.cpp; sourceTree = "<group>"; };
 		4D00B1191BFD58EE00D8BB3E /* empty.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = empty.hpp; sourceTree = "<group>"; };
+		4D1240901DF105A900AAB571 /* MobileVLCKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileVLCKit.framework; path = "Pods/MobileVLCKit/MobileVLCKit-binary/MobileVLCKit.framework"; sourceTree = "<group>"; };
 		85A517DB1DEF21EE00D04923 /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
 		97FA3E61884B8BB441C95167 /* Pods-vlckitSwiftSampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleTests/Pods-vlckitSwiftSampleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		9A054539DB9D955D431B1FAE /* Pods-vlckitSwiftSampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleUITests/Pods-vlckitSwiftSampleUITests.release.xcconfig"; sourceTree = "<group>"; };
-		C41EA20EA33B464358E9DC31 /* Pods_vlckitSwiftSampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlckitSwiftSampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF354A06C4298946FD13F8C2 /* Pods-vlckitSwiftSampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vlckitSwiftSampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vlckitSwiftSampleUITests/Pods-vlckitSwiftSampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		F42AE3CF63F71943009CC27E /* Pods_vlckitSwiftSampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vlckitSwiftSampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,8 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D1240911DF105A900AAB571 /* MobileVLCKit.framework in Frameworks */,
 				85A517DC1DEF21EE00D04923 /* libstdc++.6.tbd in Frameworks */,
-				C46056053145EF838859CC56 /* Pods_vlckitSwiftSample.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,7 +77,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71AC34011C19F56AF2B6CF12 /* Pods_vlckitSwiftSampleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,7 +84,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D2E6371EE57044BA094AD26 /* Pods_vlckitSwiftSampleUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -168,10 +162,8 @@
 		F3A535F711E18C900A22ECE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				4D1240901DF105A900AAB571 /* MobileVLCKit.framework */,
 				85A517DB1DEF21EE00D04923 /* libstdc++.6.tbd */,
-				372D75B3E6F8B7961594D652 /* Pods_vlckitSwiftSample.framework */,
-				F42AE3CF63F71943009CC27E /* Pods_vlckitSwiftSampleTests.framework */,
-				C41EA20EA33B464358E9DC31 /* Pods_vlckitSwiftSampleUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -253,6 +245,7 @@
 				TargetAttributes = {
 					4D00B0E21BFD569700D8BB3E = {
 						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = NXT4NSRR4W;
 						LastSwiftMigration = 0810;
 					};
 					4D00B0F61BFD569700D8BB3E = {
@@ -609,8 +602,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
-				DEVELOPMENT_TEAM = N95Z7TWCA8;
+				DEVELOPMENT_TEAM = NXT4NSRR4W;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MobileVLCKit/MobileVLCKit-binary",
+				);
 				INFOPLIST_FILE = vlckitSwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark.vlckitSwiftSample;
@@ -628,7 +625,12 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_CXX_LIBRARY = "compiler-default";
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = NXT4NSRR4W;
 				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/MobileVLCKit/MobileVLCKit-binary",
+				);
 				INFOPLIST_FILE = vlckitSwiftSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mark.vlckitSwiftSample;
