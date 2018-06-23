@@ -43,8 +43,12 @@ class ViewController: UIViewController, VLCMediaPlayerDelegate {
         //Playing RTSP from internet
         let url = URL(string: "rtsp://184.72.239.149/vod/mp4:BigBuckBunny_115k.mov")
 
+        if url == nil {
+            print("Invalid URL")
+            return
+        }
 
-        let media = VLCMedia(url: url)
+        let media = VLCMedia(url: url!)
         mediaPlayer.media = media
 
 
