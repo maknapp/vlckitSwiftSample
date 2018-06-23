@@ -1,5 +1,5 @@
 # vlckitSwiftSample
-Sample MobileVLCKit project using Swift 3
+Sample MobileVLCKit project using Swift 4
 
 The pod files are not included in this repo. After cloning you need to run "pod install" to get the cocoapod files. Then you should be able to open the workspace and build.
 
