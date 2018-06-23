@@ -57,7 +57,7 @@ class ViewController: UIViewController, VLCMediaPlayerDelegate {
         super.didReceiveMemoryWarning()
     }
 
-    func rotated() {
+    @objc func rotated() {
 
         let orientation = UIDevice.current.orientation
 
@@ -73,7 +73,7 @@ class ViewController: UIViewController, VLCMediaPlayerDelegate {
 
     }
 
-    func movieViewTapped(_ sender: UITapGestureRecognizer) {
+    @objc func movieViewTapped(_ sender: UITapGestureRecognizer) {
 
         if mediaPlayer.isPlaying {
             mediaPlayer.pause()
@@ -81,7 +81,7 @@ class ViewController: UIViewController, VLCMediaPlayerDelegate {
             let remaining = mediaPlayer.remainingTime
             let time = mediaPlayer.time
 
-            print("Paused at \(time) with \(remaining) time remaining")
+            print("Paused at \(time?.stringValue ?? "nil") with \(remaining?.stringValue ?? "nil") time remaining")
         }
         else {
             mediaPlayer.play()
