@@ -11,13 +11,21 @@ import UIKit
 class ViewController: UIViewController, VLCMediaPlayerDelegate {
 
     var movieView: UIView!
-    var mediaPlayer = VLCMediaPlayer()
+
+    // Enable debugging
+    //var mediaPlayer: VLCMediaPlayer = VLCMediaPlayer(options: ["-vvvv"])
+
+    var mediaPlayer: VLCMediaPlayer = VLCMediaPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
         //Add rotation observer
-        NotificationCenter.default.addObserver(self, selector: #selector(ViewController.rotated), name: NSNotification.Name.UIDeviceOrientationDidChange, object: nil)
+        NotificationCenter.default.addObserver(
+            self,
+            selector: #selector(ViewController.rotated),
+            name: NSNotification.Name.UIDeviceOrientationDidChange,
+            object: nil)
 
         //Setup movieView
         self.movieView = UIView()
@@ -49,8 +57,14 @@ class ViewController: UIViewController, VLCMediaPlayerDelegate {
         }
 
         let media = VLCMedia(url: url!)
-        mediaPlayer.media = media
 
+        // Set media options
+        // https://wiki.videolan.org/VLC_command-line_help
+        //media.addOptions([
+        //    "network-caching": 300
+        //])
+
+        mediaPlayer.media = media
 
         mediaPlayer.delegate = self
         mediaPlayer.drawable = self.movieView
